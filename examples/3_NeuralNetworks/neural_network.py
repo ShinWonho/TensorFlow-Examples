@@ -20,7 +20,7 @@ from __future__ import print_function
 from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("/tmp/data/", one_hot=False)
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 # Parameters
 learning_rate = 0.1
